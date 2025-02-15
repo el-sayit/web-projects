@@ -11,3 +11,27 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+header {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--secondary-color);
+}
+.search {
+    background-color: transparent;
+    padding: 0.3rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+
+}
+.search::placeholder {
+color: #7378c5;
+}
+.search:focus {
+    outline: none;
+    background-color: var(--primary-color);
+}
