@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+ :root {
+    --primary-color: #22254b;
+    --secondary-color:#373b69;
+ }
+ *   {
     box-sizing: border-box;
 }
 body {
+    background-color: var(--primary-color);
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
